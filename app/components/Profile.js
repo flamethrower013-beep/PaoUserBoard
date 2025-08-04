@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import {
   User,
   BarChart,
@@ -57,7 +58,7 @@ export default function ProfileTabs() {
       <div className="banner px-4 py-3 w-auto rounded min-h-[95vh] m-4 bg-raisin-black-1">
       {/* 🔝 Profile Header */}
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-8">
-        <img
+        <Image
           src={player.avatar}
           alt="avatar"
           className="w-24 h-24 rounded-full border-4 border-yellow-400 object-cover shadow-md"
