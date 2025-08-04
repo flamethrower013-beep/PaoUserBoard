@@ -8,7 +8,7 @@ import Wallet from './components/Wallet';
 import Tournaments from './components/Tournaments';
 import Profile from './components/Profile';
 
-function page() {
+function Page() {
   const [activePage, setActivePage] = useState('home');
   const renderPage = ()=>{
     switch(activePage){
@@ -43,4 +43,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

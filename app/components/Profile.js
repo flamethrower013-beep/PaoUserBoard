@@ -37,7 +37,7 @@ export default function ProfileTabs() {
   const renderTabContent = () => {
     switch (activeTab) {
       case 'Overview':
-        return <p>This is the player's overview.</p>;
+        return <p>This is the players overview.</p>;
       case 'Stats':
         return <p>Player stats: Matches, Kills, Wins, K/D, etc.</p>;
       case 'Tournaments':
