@@ -13,9 +13,9 @@ function Page() {
   const renderPage = ()=>{
     switch(activePage){
       case 'create':
-        return <Create/>
+        return <Create  />
       case 'home':
-        return <Home/>
+        return <Home />
       case 'leader-board':
         return <LeaderBoard/>
       
@@ -32,11 +32,16 @@ function Page() {
   }
   return (
     <div className='text-white'>
-     <Sidebar setActivePage={setActivePage} />
+     <Sidebar activePage={activePage} setActivePage={setActivePage} />
     <div className='flex pb-20 sm:h-screen sm:p-0 pt-22 sm:pl-57 w-full bg-eerie-black'>
+      <div className='min-h-screen h-fit w-full  bg-eerie-black'>
+      <div className="banner px-4 w-auto rounded min-h-[95vh] m-4 bg-raisin-black-1 py-3">
+        
       {
         renderPage()
       }
+      </div>
+      </div>
     
     </div>
     </div>

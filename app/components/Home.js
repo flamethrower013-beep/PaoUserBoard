@@ -15,8 +15,7 @@ function Home() {
     fetchTournaments();
   }, []);
   return (
-    <div className='min-h-screen h-fit w-full bg-eerie-black'>
-      <div className="banner px-4 w-auto rounded min-h-8/12 m-4 bg-raisin-black-1 pb-4">
+    <>
       <div className="lg:flex  py-6 justify-between items-center">
         
       <h1 className="text-2xl lg:text-3xl text-white font-bold text-center lg:text-start">BGMI-Battleground Mobile India</h1>
@@ -37,8 +36,7 @@ function Home() {
           <TournamentCard key={t.id} {...t} />
         ))}
       </div>
-      </div>
-    </div>
+  </>
   )
 }
 

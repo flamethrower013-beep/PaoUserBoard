@@ -33,12 +33,10 @@ export default function WalletPage() {
   };
 
   return (
-    <div className='min-h-screen h-fit w-full  bg-eerie-black'>
-      <div className="banner px-4 w-auto rounded min-h-[95vh] m-4 bg-raisin-black-1 py-3">
+   <>
       <WalletCard balance={balance} onAdd={handleAdd} onWithdraw={handleWithdraw} />
       <TransactionList transactions={transactions} />
-    </div>
-    </div>
+    </>
     
   );
 }

@@ -54,8 +54,7 @@ export default function ProfileTabs() {
   };
 
   return (
-     <div className='min-h-screen h-fit w-full  bg-eerie-black'>
-      <div className="banner px-4 py-3 w-auto rounded min-h-[95vh] m-4 bg-raisin-black-1">
+    <>
       {/* 🔝 Profile Header */}
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-8">
         <Image
@@ -87,7 +86,7 @@ export default function ProfileTabs() {
               activeTab === tab.label
                 ? 'bg-yellow-500 text-raisin-black-3 shadow'
                 : 'bg-raisin-black-3 hover:bg-zinc-700 text-gray-300'
-            }`}
+              }`}
           >
             {tab.icon}
             {tab.label}
@@ -132,7 +131,6 @@ export default function ProfileTabs() {
 
       {/* Tab Content */}
       <div className="bg-raisin-black-3 p-6 rounded-xl min-h-[200px] border border-zinc-700">{renderTabContent()}</div>
-    </div>
-    </div>
+        </>
   );
 }
