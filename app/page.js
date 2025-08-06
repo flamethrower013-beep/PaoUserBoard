@@ -9,7 +9,7 @@ import Tournaments from './components/Tournaments';
 import Profile from './components/Profile';
 
 function Page() {
-  const [activePage, setActivePage] = useState('home');
+  const [activePage, setActivePage] = useState('leader-board');
   const renderPage = ()=>{
     switch(activePage){
       case 'create':
@@ -31,7 +31,7 @@ function Page() {
     }
   }
   return (
-    <>
+    <div className='text-white'>
      <Sidebar setActivePage={setActivePage} />
     <div className='flex pb-20 sm:h-screen sm:p-0 pt-22 sm:pl-57 w-full bg-eerie-black'>
       {
@@ -39,7 +39,7 @@ function Page() {
       }
     
     </div>
-    </>
+    </div>
   )
 }
 

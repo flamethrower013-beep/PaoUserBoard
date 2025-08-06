@@ -27,7 +27,7 @@ export default function ProfileTabs() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const player = {
-    avatar: '/avatars/1.png',
+    avatar: '/assets/logo.png',
     username: 'Meghnath Ghadi',
     email: 'meghnathghadi@gmail.com',
     rank: 'Diamond',
@@ -61,6 +61,7 @@ export default function ProfileTabs() {
         <Image
           src={player.avatar}
           alt="avatar"
+          width={30} height={30}
           className="w-24 h-24 rounded-full border-4 border-yellow-400 object-cover shadow-md"
         />
         <div className="text-center sm:text-left">

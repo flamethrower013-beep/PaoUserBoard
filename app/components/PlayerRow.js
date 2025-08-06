@@ -12,7 +12,7 @@ export default function PlayerRow({ player, rank }) {
     <>
       <td className={`px-4 py-3 font-semibold ${bgColor}`}>#{rank}</td>
       <td className={`px-4 py-3 flex items-center gap-3 ${bgColor}`}>
-        <Image key={null} src={player.avatar} alt="avatar" className="w-8 h-8 rounded-full" />
+        <Image key={null} src={player.avatar} width={32} height={32} alt="avatar" className="rounded-full" />
         {player.name}
       </td>
       <td className={`px-4 py-3 text-center ${bgColor}`}>{player.points}</td>

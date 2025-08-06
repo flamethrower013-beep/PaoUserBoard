@@ -5,16 +5,16 @@ import PlayerRow from './PlayerRow';
 
 function LeaderBoard() {
   const mockData = [
-  { id: 1, name: 'AceHunter', points: 2500, kills: 43, avatar: '/avatars/1.png' },
-  { id: 2, name: 'ShadowSniper', points: 2300, kills: 37, avatar: '/avatars/2.png' },
-  { id: 3, name: 'BlazeKing', points: 2200, kills: 40, avatar: '/avatars/3.png' },
-  { id: 4, name: 'IronFist', points: 2100, kills: 30, avatar: '/avatars/4.png' },
-  { id: 5, name: 'DeadlyNinja', points: 2000, kills: 28, avatar: '/avatars/5.png' },
-  { id: 6, name: 'DeadlyNinja', points: 2000, kills: 28, avatar: '/avatars/5.png' },
-  { id: 7, name: 'DeadlyNinja', points: 2000, kills: 28, avatar: '/avatars/5.png' },
-  { id: 8, name: 'IronFist', points: 2100, kills: 30, avatar: '/avatars/4.png' },
-  { id: 9, name: 'ShadowSniper', points: 2300, kills: 37, avatar: '/avatars/2.png' },
-  { id: 10, name: 'IronFist', points: 2100, kills: 30, avatar: '/avatars/4.png' },
+  { id: 1, name: 'AceHunter', points: 2500, kills: 43, avatar: '/assets/logo.png' },
+  { id: 2, name: 'ShadowSniper', points: 2300, kills: 37, avatar: '/assets/logo.png' },
+  { id: 3, name: 'BlazeKing', points: 2200, kills: 40, avatar: '/assets/logo.png' },
+  { id: 4, name: 'IronFist', points: 2100, kills: 30, avatar: '/assets/logo.png' },
+  { id: 5, name: 'DeadlyNinja', points: 2000, kills: 28, avatar: '/assets/logo.png' },
+  { id: 6, name: 'DeadlyNinja', points: 2000, kills: 28, avatar: '/assets/logo.png' },
+  { id: 7, name: 'DeadlyNinja', points: 2000, kills: 28, avatar: '/assets/logo.png' },
+  { id: 8, name: 'IronFist', points: 2100, kills: 30, avatar: '/assets/logo.png' },
+  { id: 9, name: 'ShadowSniper', points: 2300, kills: 37, avatar: '/assets/logo.png' },
+  { id: 10, name: 'IronFist', points: 2100, kills: 30, avatar: '/assets/logo.png' },
 
 
 
@@ -91,11 +91,13 @@ function LeaderBoard() {
                 : ''
             }`}
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 relative">
               <Image
                 src={player.avatar}
                 alt={player.name}
-                className="w-10 h-10 rounded-full object-cover"
+                width={100}  
+      height={100}
+                className=" rounded-full object-cover"
               />
               <div>
                 <p className="font-semibold">{player.name}</p>
