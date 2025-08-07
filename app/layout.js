@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         className={`min-h-screen  antialiased`}
       >
         {children}
+        <Analytics/>
       </body>
     </html>
   );

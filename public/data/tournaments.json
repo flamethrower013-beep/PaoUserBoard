@@ -8,7 +8,9 @@
     "maxParticipants": 64,
     "joinedPlayers": 34,
     "map": "Miramar",
-    "status": "Live"
+    "status": "Live",
+    "game": "BGMI",
+    "type": "Solo"
   },
   {
     "id": 2,
@@ -19,7 +21,9 @@
     "maxParticipants": 100,
     "joinedPlayers": 34,
     "map": "Erangel",
-    "status": "Upcoming"
+    "status": "Upcoming",
+    "game": "FreeFire",
+    "type": "Solo"
   },
   {
     "id": 3,
@@ -30,7 +34,9 @@
     "maxParticipants": 50,
     "joinedPlayers": 34,
     "map": "Sanhok",
-    "status": "Completed"
+    "status": "Completed",
+    "game": "FreeFire",
+    "type": "Solo"
   },
   {
     "id": 4,
@@ -41,7 +47,9 @@
     "maxParticipants": 100,
     "joinedPlayers": 34,
     "map": "Erangel",
-    "status": "Upcoming"
+    "status": "Upcoming",
+    "game": "FreeFire",
+    "type": "Solo"
   },
   {
     "id": 5,
@@ -51,7 +59,9 @@
     "date": "2025-08-04 6:00 PM",
     "maxParticipants": 100,
     "map": "Erangel",
-    "status": "Upcoming"
+    "status": "Upcoming",
+    "game": "BGMI",
+    "type": "Solo"
   },
   {
     "id": 6,
@@ -61,7 +71,9 @@
     "date": "2025-08-04 6:00 PM",
     "maxParticipants": 100,
     "map": "Erangel",
-    "status": "Upcoming"
+    "status": "Upcoming",
+    "game": "FreeFire",
+    "type": "Solo"
   },
   {
     "id": 7,
