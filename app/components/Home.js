@@ -13,7 +13,7 @@ function Home() {
       return gameMatch && typeMatch;
     });
   };
-    const games = ['All', 'BGMI', 'Free Fire'];
+    const games = ['All', 'BGMI', 'Free Fire', 'Ludo'];
   const types = ['All', 'Solo', 'Duo', 'Squad'];
 
   useEffect(() => {
@@ -30,8 +30,8 @@ function Home() {
         
       <h1 className="text-2xl lg:text-3xl text-white font-bold text-center lg:text-start">BGMI-Battleground Mobile India</h1>
             {/* Filters */}
-      <div className="flex gap-4 my-6 flex-wrap justify-center items-center ">
-       Game : <select
+      <div className="flex gap-2 my-6 flex-wrap justify-center items-center ">
+       Game :<select
           value={selectedGame}
           onChange={(e) => setSelectedGame(e.target.value)}
           className="bg-raisin-black-2 px-4 py-2 rounded text-white"
