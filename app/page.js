@@ -9,7 +9,7 @@ import Tournaments from './components/Tournaments';
 import Profile from './components/Profile';
 
 function Page() {
-  const [activePage, setActivePage] = useState('leader-board');
+  const [activePage, setActivePage] = useState('home');
   const renderPage = ()=>{
     switch(activePage){
       case 'create':
