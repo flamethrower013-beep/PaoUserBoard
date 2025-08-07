@@ -18,6 +18,7 @@ const statusColor = {
 };
 
 const TournamentCard = ({
+  title,
   entryFee,
   prize,
   killPoints,
@@ -26,6 +27,7 @@ const TournamentCard = ({
   joinedPlayers,
   map,
   status,
+  type,
 }) => {
   const progress = Math.min(
     100,
@@ -38,7 +40,7 @@ const TournamentCard = ({
       <div className="flex justify-between items-center mb-4">
         <h3 className="text-lg font-bold text-yellow-400 flex items-center gap-2">
           <BadgeCheck size={20} className="text-yellow-400" />
-          Custom Match
+          {title}
         </h3>
         <span
           className={`text-xs px-3 py-1 rounded-full font-bold ${statusColor[status]}`}
@@ -75,10 +77,14 @@ const TournamentCard = ({
             {date}
           </span>
           <span className="flex items-center gap-1 text-gray-300">
+            👥
+            {type}
+          </span>
+        </div>
+          <span className="w-full flex items-center gap-1 text-gray-300 justify-end">
             <Users size={16} className="text-orange-400" />
             {joinedPlayers} / {maxParticipants}
           </span>
-        </div>
       </div>
 
       {/* Progress Bar */}

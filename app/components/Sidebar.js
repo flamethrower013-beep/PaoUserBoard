@@ -51,7 +51,7 @@ function Sidebar({ activePage, setActivePage }) {
           )}`}
         >
           <Home />
-          Home
+          Home  
         </li>
         <li
           onClick={() => setActivePage('leader-board')}
