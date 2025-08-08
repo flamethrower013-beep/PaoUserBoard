@@ -6,7 +6,8 @@ function Home() {
   const [tournaments, setTournaments] = useState([]);
     const [selectedGame, setSelectedGame] = useState('All');
     const [selectedType, setSelectedType] = useState('All');
-      const filterTournaments = () => {
+
+const filterTournaments = () => {
     return tournaments.filter((t) => {
       const gameMatch = selectedGame === 'All' || t.game === selectedGame;
       const typeMatch = selectedType === 'All' || t.type === selectedType;
@@ -28,7 +29,11 @@ function Home() {
     <div className=''>
       <div className="lg:flex  py-6 justify-between items-center ">
         
-      <h1 className="text-2xl lg:text-3xl text-white font-bold text-center lg:text-start">BGMI-Battleground Mobile India</h1>
+      <h1 className="text-2xl lg:text-3xl text-white font-bold text-center lg:text-start">
+        BGMI-Battleground Mobile India
+
+
+      </h1>
             {/* Filters */}
       <div className="flex gap-2 my-6 flex-wrap justify-center items-center ">
        Game :<select

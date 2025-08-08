@@ -1,0 +1,37 @@
+{
+  "title": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "How do I register for a tournament?",
+      "answer": "To register, create an account on our website, select the tournament you want to join, pay the entry fee if applicable, and confirm your registration."
+    },
+    {
+      "question": "What games are supported?",
+      "answer": "We currently support tournaments for BGMI, Free Fire, and Ludo."
+    },
+    {
+      "question": "How is the prize money distributed?",
+      "answer": "Prize distribution varies per tournament and is detailed on each tournament’s page. Winners will receive their prizes directly to their registered wallets."
+    },
+    {
+      "question": "Can I join a tournament after it has started?",
+      "answer": "No, participants must join before the tournament start time. Late entries are not accepted."
+    },
+    {
+      "question": "What happens if a tournament is cancelled?",
+      "answer": "In case of cancellation, all entry fees will be refunded to the participants’ wallets within 3-5 business days."
+    },
+    {
+      "question": "How do you handle cheating or unfair play?",
+      "answer": "We have strict rules and use leaderboard verification to prevent cheating. Any suspicious activity will lead to disqualification."
+    },
+    {
+      "question": "Is there a mobile app for the tournaments?",
+      "answer": "Currently, we operate through our responsive website, accessible on all devices. A mobile app is in development."
+    },
+    {
+      "question": "How can I contact support?",
+      "answer": "You can reach our support team via the contact form on our website or by emailing support@pao.com."
+    }
+  ]
+}

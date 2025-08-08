@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import PlayerOverview from './PlayerOverview';
+import PrivacyPolicy from './PrivacyPolicy';
+import AboutUs from './AboutUs';
+import Faqs from './Faqs';
+
 import {
   User,
   BarChart,
@@ -15,11 +20,10 @@ import {
 
 const tabs = [
   { label: 'Overview', icon: <User className="w-4 h-4" /> },
-  { label: 'Stats', icon: <BarChart className="w-4 h-4" /> },
-  { label: 'Tournaments', icon: <Trophy className="w-4 h-4" /> },
-  
-  { label: 'Settings', icon: <Settings className="w-4 h-4" /> },
-  { label: 'Help', icon: <HelpCircle className="w-4 h-4" /> },
+  { label: 'Privacy', icon: <Settings className="w-4 h-4" /> },
+  { label: 'About', icon: <HelpCircle className="w-4 h-4" /> },
+  { label: `Faq's`, icon: <HelpCircle className="w-4 h-4" /> },
+
 ];
 
 export default function ProfileTabs() {
@@ -34,20 +38,23 @@ export default function ProfileTabs() {
     country: 'India 🇮🇳',
   };
 
+
   const renderTabContent = () => {
     switch (activeTab) {
       case 'Overview':
-        return <p>This is the players overview.</p>;
-      case 'Stats':
-        return <p>Player stats: Matches, Kills, Wins, K/D, etc.</p>;
-      case 'Tournaments':
-        return <p>List of joined and upcoming tournaments.</p>;
+        return  <PlayerOverview
+        playerName="ShadowSlayer"
+        avatar="/assets/player1.jpg"
+      />
+     
       case 'Wallet':
         return <p>Wallet balance, earnings, and transactions.</p>;
-      case 'Settings':
-        return <p>Edit profile, security settings, preferences.</p>;
-      case 'Friends':
-        return <p>Friends list and invites.</p>;
+      case 'Privacy':
+        return <PrivacyPolicy/>;
+      case 'About':
+        return <AboutUs />;
+        case `Faq's`:
+        return <Faqs />;
       default:
         return null;
     }

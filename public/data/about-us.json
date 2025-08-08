@@ -1,0 +1,30 @@
+{
+  "title": "About Us",
+  "sections": [
+    {
+      "heading": "Who We Are",
+      "content": "We are a passionate team dedicated to organizing and hosting the best esports tournaments. Our mission is to build a vibrant community where gamers of all levels can compete, connect, and grow."
+    },
+    {
+      "heading": "Our Vision",
+      "content": "To be the leading platform for esports tournaments, fostering fair play, excitement, and opportunities for players worldwide."
+    },
+    {
+      "heading": "What We Offer",
+      "contentList": [
+        "Regular tournaments for popular games like BGMI, Free Fire, and Ludo.",
+        "Secure and easy-to-use platform for tournament management and payments.",
+        "Real-time leaderboards and player stats tracking.",
+        "Support for players and organizers with dedicated customer service."
+      ]
+    },
+    {
+      "heading": "Our Team",
+      "content": "Our team consists of esports enthusiasts, developers, and organizers committed to delivering the best competitive gaming experience."
+    },
+    {
+      "heading": "Contact Us",
+      "content": "Have questions or want to collaborate? Reach out to us at contact@pao.com."
+    }
+  ]
+}

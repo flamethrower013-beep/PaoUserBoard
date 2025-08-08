@@ -1,0 +1,61 @@
+{
+  "title": "Privacy Policy",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our esports tournament website."
+    },
+    {
+      "heading": "Information We Collect",
+      "contentList": [
+        "Personal data you provide, such as name, email address, and payment details.",
+        "Information about your gameplay, tournament participation, and results.",
+        "Usage data including IP address, browser type, and device information.",
+        "Cookies and tracking technologies to improve your experience."
+      ]
+    },
+    {
+      "heading": "How We Use Your Information",
+      "contentList": [
+        "To manage and administer tournaments and player accounts.",
+        "To communicate important updates, announcements, and promotional offers.",
+        "To analyze and improve our website and services.",
+        "To comply with legal obligations and protect our rights."
+      ]
+    },
+    {
+      "heading": "Information Sharing and Disclosure",
+      "content": "We do not sell or rent your personal information. We may share your data with trusted third-party service providers who assist us in operating the website, conducting tournaments, or processing payments, subject to confidentiality agreements."
+    },
+    {
+      "heading": "Data Security",
+      "content": "We implement appropriate technical and organizational measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction."
+    },
+    {
+      "heading": "Your Rights",
+      "contentList": [
+        "Access your personal data we hold.",
+        "Request correction or deletion of your data.",
+        "Opt out of marketing communications.",
+        "Withdraw consent where applicable.",
+        "File a complaint with a data protection authority if you believe your rights have been violated."
+      ]
+    },
+    {
+      "heading": "Cookies",
+      "content": "Our website uses cookies to enhance user experience, remember preferences, and analyze site traffic. You can control cookies through your browser settings."
+    },
+    {
+      "heading": "Children’s Privacy",
+      "content": "Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children without parental consent."
+    },
+    {
+      "heading": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page with an updated effective date."
+    },
+    {
+      "heading": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at support@pao.com."
+    }
+  ]
+}

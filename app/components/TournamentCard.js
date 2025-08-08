@@ -54,7 +54,7 @@ const TournamentCard = ({
         <div className="flex justify-between items-center">
           <span className="flex items-center gap-1 text-gray-300">
             <DollarSign size={16} className="text-green-400" />
-            ₹{entryFee}
+            ₹{entryFee} Entry fee
           </span>
           <span className="flex items-center gap-1 text-gray-300">
             <Target size={16} className="text-red-400" />
